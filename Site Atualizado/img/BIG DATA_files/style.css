@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin:0 auto;
+    padding:0 2%;
+}
+
+header{
+    padding: 20px 0;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menu{
+    width: 50%;
+    text-align: right;
+}
+
+.menu a{
+    color: rgb(5, 5, 90);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+    font-size:larger;
+}
+
+.title {
+    color:#131361;
+    text-decoration: none;
+    font-size: 120px;
+    margin-top: auto;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.carousel-inner {
+    width: 100px;
+    margin: auto;
+}
+
+#carouselExample
